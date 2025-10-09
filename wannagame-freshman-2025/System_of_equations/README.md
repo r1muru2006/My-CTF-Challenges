@@ -86,6 +86,6 @@ One checks that for all $p>1$ the right-hand side is less than $p$, so $a<p$. Th
 - If $a=1$ then from (1) we need $-8b^4-6b^2+4p$ to be a perfect square.
 - If $a=2$ then from (1) we need $-16b^4-6b^2+2p$ to be a perfect square.
 
-A small brute-force search over these cases is easy and yields the solution family $(x,y,z)=(4ab^2+2,\;2a(c^2-b^2)-2,\;2abc+1)$ with $c$ chosen so that the perfect-square condition holds (in the original derivation $c=\sqrt{k}-b$ for some integer $k$).
+A small brute-force search over these cases is easy and yields the solution family $(x,y,z)=(4ab^2+2,2a(c^2-b^2)-2,2abc+1)$ with $c$ chosen so that the perfect-square condition holds (in the original derivation $c=\sqrt{k}-b$ for some integer $k$).
 
 [Full script](./solution.py)
