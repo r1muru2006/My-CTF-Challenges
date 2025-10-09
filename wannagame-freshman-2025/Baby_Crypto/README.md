@@ -62,4 +62,4 @@ with open("output.txt", "w") as o:
 ```
 
 After that, we reverse through each algorithm and decode the ciphertext. This give us a long message and I believe that you're not blind to find the hidden flag in it :3.
-Here is my [solution](./solution.py)...
+Here is my [script](./solution.py)

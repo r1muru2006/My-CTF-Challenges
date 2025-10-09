@@ -88,4 +88,4 @@ One checks that for all $p>1$ the right-hand side is less than $p$, so $a<p$. Th
 
 A small brute-force search over these cases is easy and yields the solution family $(x,y,z)=(4ab^2+2,\;2a(c^2-b^2)-2,\;2abc+1)$ with $c$ chosen so that the perfect-square condition holds (in the original derivation $c=\sqrt{k}-b$ for some integer $k$).
 
-[Full script](./solution.py)...
+[Full script](./solution.py)
