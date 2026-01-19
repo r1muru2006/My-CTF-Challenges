@@ -33,8 +33,7 @@ def try_gen():
         print(f'{i}^e mod p =', pow(i, e, p))
 ```
 
-Since `pt` (800+ bits) is larger than $p$ (512 bits), we cannot recover the full flag simply by decrypting modulo $p$. Therefore, we must collect more data from runs to utilize the Chinese Remainder Theorem (CRT).
-
+Since `pt` (800+ bits) is larger than $p$ (512 bits), we cannot recover the full flag simply by decrypting modulo $p$. Therefore, we must collect more data from runs to utilize the Chinese Remainder Theorem (CRT). 3 steps is enough for this problem :333
 
 1. First we recover prime $p$ based on the provided values:
 $$R_2 = 2^e \pmod p, R_3 = 3^e \pmod p, R_4 = 4^e \pmod p, R_6 = 6^e \pmod p$$
