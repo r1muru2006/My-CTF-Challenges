@@ -47,7 +47,7 @@ $$p = \text{gcd}(|R_2^2 - R_4|, |R_2 \cdot R_3 - R_6|)$$
 
 On the other hand, we notice that p has 512 bits, while the other two values ​​are less than or equal to 1024 bits, so when taking GCD, the largest prime factor is p.
 
-Then, we calculate $d_p = e^{-1} \pmod{p-1}$. And we have the value of the flag modulo $p$ is:$pt' = ct^{d_p} \pmod p$
+Then, we calculate $d_p = e^{-1} \pmod{p-1}$. And we have the value of the flag modulo $p$ is: $pt' = ct^{d_p} \pmod p$
 
 Using CRT with two pairs $(pt_1, p_1), (pt_2, p_2)$ is enough for us to recover the flag.
 
