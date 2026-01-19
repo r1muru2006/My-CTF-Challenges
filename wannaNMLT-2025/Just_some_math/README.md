@@ -38,7 +38,7 @@ Since `pt` (800+ bits) is larger than $p$ (512 bits), we cannot recover the full
 
 First we recover prime $p$ based on the provided values:
 $$R_2 = 2^e \pmod p, R_3 = 3^e \pmod p, R_4 = 4^e \pmod p, R_6 = 6^e \pmod p$$
-We observe the following mathematical properties: $ R_4 \equiv R_2^2 \pmod p, R_6 \equiv R_2 \cdot R_3 \pmod p$
+We observe the following mathematical properties: $R_4 \equiv R_2^2 \pmod p, R_6 \equiv R_2 \cdot R_3 \pmod p$
 
 This implies that: $p \mid (R_2^2 - R_4), p \mid (R_2 \cdot R_3 - R_6)$
 
