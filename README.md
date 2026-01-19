@@ -8,3 +8,5 @@ Here is some CTF challenges which I created for competitions in my free time. Ha
 | :-----------------------------------------------------------------:   | :---------: | :-----------------------------------------------: |
 | [Baby Crypto](./wannagame-freshman-2025/Baby_Crypto/)                 | Crypto      | ROT13, Base85, XOR                                |
 | [System of Equations](./wannagame-freshman-2025/System_of_equations/) | Crypto      | Equations                                         |
+| [System of Equations](./wannagame-freshman-2025/System_of_equations/) | Crypto      | Equations                                         |
+| [Just some Math](./wannaNMLT-2025/Just_some_math/)                    | Crypto      | Remote, Equations                                 |

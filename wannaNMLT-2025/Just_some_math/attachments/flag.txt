@@ -1,0 +1,2 @@
+We know the flag that the candidate entered ^^
+And you will lose your aura if enter this flag: W1{fake_flag}
