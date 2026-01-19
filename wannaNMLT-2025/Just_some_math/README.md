@@ -36,8 +36,9 @@ def try_gen():
 Since `pt` (800+ bits) is larger than $p$ (512 bits), we cannot recover the full flag simply by decrypting modulo $p$. Therefore, we must collect more data from runs to utilize the Chinese Remainder Theorem (CRT).
 
 
-First we recover prime $p$ based on the provided values:
+1. First we recover prime $p$ based on the provided values:
 $$R_2 = 2^e \pmod p, R_3 = 3^e \pmod p, R_4 = 4^e \pmod p, R_6 = 6^e \pmod p$$
+
 We observe the following mathematical properties: $R_4 \equiv R_2^2 \pmod p, R_6 \equiv R_2 \cdot R_3 \pmod p$
 
 This implies that: $p \mid (R_2^2 - R_4), p \mid (R_2 \cdot R_3 - R_6)$
@@ -47,8 +48,8 @@ $$p = \text{gcd}(|R_2^2 - R_4|, |R_2 \cdot R_3 - R_6|)$$
 
 On the other hand, we notice that p has 512 bits, while the other two values ​​are less than or equal to 1024 bits, so when taking GCD, the largest prime factor is p.
 
-Then, we calculate $d_p = e^{-1} \pmod{p-1}$. And we have the value of the flag modulo $p$ is: $pt' = ct^{d_p} \pmod p$
+2. Then, we calculate $d_p = e^{-1} \pmod{p-1}$. And we have the value of the flag modulo $p$ is: $pt' = ct^{d_p} \pmod p$
 
-Using CRT with two pairs $(pt_1, p_1), (pt_2, p_2)$ is enough for us to recover the flag.
+3. Using CRT with two pairs $(pt_1, p_1), (pt_2, p_2)$ is enough for us to recover the flag.
 
 [Full solution script](./solution/solve.py)
