@@ -42,7 +42,8 @@ We observe the following mathematical properties: $ R_4 \equiv R_2^2 \pmod p, R_
 
 This implies that: $p \mid (R_2^2 - R_4), p \mid (R_2 \cdot R_3 - R_6)$
 
-By calculating the Greatest Common Divisor (GCD) of these differences, we can recover the prime $p$:$$p = \text{gcd}(|R_2^2 - R_4|, |R_2 \cdot R_3 - R_6|)$$
+By calculating the Greatest Common Divisor (GCD) of these differences, we can recover the prime $p$:
+$$p = \text{gcd}(|R_2^2 - R_4|, |R_2 \cdot R_3 - R_6|)$$
 
 On the other hand, we notice that p has 512 bits, while the other two values ​​are less than or equal to 1024 bits, so when taking GCD, the largest prime factor is p.
 
